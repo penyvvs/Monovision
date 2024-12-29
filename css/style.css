@@ -92,17 +92,15 @@ html{
     }
     @media screen and (max-width: 768px) {
         &{
-            background: #000 url(../img/rose_tablet.png)center bottom/cover no-repeat;
-            background-position: -44px 128px;
-            background-size: 1025px;
+            background: #000 url(../img/full_rose.png)center center/cover no-repeat;
+            background-position: 60px 15px;
+            padding-top: 30px;
         }
     }
     @media screen and (max-width: 576px) {
         &{
-        background-position-y: 65%;
-        background-size: 127%;
-        min-height: 500px;
-        padding-top: 50px;
+            background: #000 url(../img/full_rose.png)center center/cover no-repeat;
+            background-size: 115%;
         }
     }
 }
@@ -112,7 +110,7 @@ html{
     text-transform: uppercase;
     font-weight: 400;
     @media screen and (max-width: 768px) {
-        font-size: 48px;
+        font-size: 36px;
     }
     @media screen and (max-width: 576px){
         &{
@@ -126,9 +124,8 @@ html{
     color: var(--light-color, #F5F5F7);
     font-weight: 100;
     @media screen and (max-width: 768px) {
-        margin-top: 80px;
-        font-size: 32px;
-        font-weight: Tight;
+        margin-top: 15px;
+        font-size: 24px;
     }
     @media screen and (max-width: 576px){
         &{
@@ -182,7 +179,7 @@ html{
         background: url(../icons/Arrow.svg)center center/cover no-repeat;
     }
     @media screen and (max-width: 768px) {
-        margin-top: 80px;
+        margin-top: 40px;
         &::before{
             left: -40px;
         }
