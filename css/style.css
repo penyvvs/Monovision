@@ -102,6 +102,7 @@ html{
             background: #000 url(../img/full_rose.png)center center/cover no-repeat;
             background-size: 115%;
         }
+        min-height: 500px;
     }
 }
 .promo__title{
